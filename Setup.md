@@ -9,11 +9,10 @@ Firstly you should setup Ubuntu and ROS, by following the steps below:
 https://releases.ubuntu.com/16.04/
 (direct link to download Ubunut on 64-bit system: https://releases.ubuntu.com/16.04/ubuntu-16.04.7-desktop-amd64.iso)
 
-2. Create a bootable USB stick on Ubuntu
-https://ubuntu.com/tutorials/create-a-usb-stick-on-ubuntu#3-launch-startup-disk-creator
+2. Create a bootable USB stick:
+    * on Ubuntu: https://ubuntu.com/tutorials/create-a-usb-stick-on-ubuntu#3-launch-startup-disk-creator
 
-OR, on Windows:
-https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview
+    * on Windows: https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview
 
 3. Boot from the USB and download Ubuntu and restart
 
