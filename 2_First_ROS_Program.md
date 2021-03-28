@@ -33,4 +33,21 @@ In this file you will learn the following:
 
 ---------------------
 
-**III- Create a ROS node**:
+**III- Create a ROS node**: 
+* The node is a process that perform computational. 
+* You can create as many nodes as you want inside packages (e.g. inside Camera package: camera driver node, Image processing node ... etc.)
+* Nodes communicate with each others trough topics, services, and parameter server
+* Nodes can be written in Python, C++,...
+* Nodes can not have the same name.
+
+---------------------
+**III-A Create a ROS node - Python**: 
+
+1. `cd catkin_ws/src/first_pkg`
+2. `mkdir scripts` where you will put your Python code file
+3. `cd scripts`
+4. `touch first_node.py` create python file
+5. `chmod +x first_node.py` make it executable
+6. edit the file `vim first_node.py`
+7. 
+
