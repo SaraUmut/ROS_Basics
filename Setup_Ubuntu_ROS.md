@@ -3,6 +3,7 @@
 Firstly you should setup Ubuntu and ROS, by following the steps below:
 (Note: I will work with Ubunut 16.04 (Xenial) and ROS Kinetic)
 
+-------------------------
 **I- Ubunut:**
 
 1. Download the ios:
@@ -28,7 +29,8 @@ https://releases.ubuntu.com/16.04/
     3. `sudo apt-get update`
     4. `sudo apt-get upgrade`
     
-**II- Ubunut:**
+-------------------------
+**II- ROS:**
 
 1. Follow the steps in the official link: http://wiki.ros.org/kinetic/Installation/Ubuntu
    (use the Desktop-Full Install version).
@@ -43,7 +45,7 @@ https://releases.ubuntu.com/16.04/
         
 4. check that ROS master can run correctly, by typing: `roscore`
 
-
+-------------------------
 **Useful links:**
 1. ROS Distributions: http://wiki.ros.org/Distributions
 2. To download Ubunutu & ROS on virtual Machine, I recommend using 'Virtual Box': https://www.virtualbox.org/wiki/Downloads
