@@ -29,13 +29,20 @@ https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview
     C. `sudo apt-get update`
     D. `sudo apt-get upgrade`
     
-**II- ROS:** Download ROS Kinetic:
-    1. follow the steps in the official link: http://wiki.ros.org/kinetic/Installation/Ubuntu
-       (use the Desktop-Full Install version).
-    2. check the installation by typing (in terminal): `printenv | grep ROS`
+**II- Ubunut:**
+
+1- Follow the steps in the official link: http://wiki.ros.org/kinetic/Installation/Ubuntu
+   (use the Desktop-Full Install version).
+2- Ensure that the ROS environment variables are added to your bash file, by:
+    1. type: `vim ~/.bashrc`
+    2. go to the end of the file and you should find the line: `source /opt/ros/kinetic/setup.bash` written.
+    3. if not, add it by going to insert mode first (press i) then write the previous line. Save and exit (Esc : wq)
+3- check the installation by typing (in terminal): `printenv | grep ROS`
         (you should get some information about the ROS path like: ROS_ROOT= /opt/ros/kinetic/share/ros)
+4- check that ROS master can run correctly, by typing: `roscore`
 
 
 **Useful links:**
 1- ROS Distribuations: http://wiki.ros.org/Distributions
 2- To download Ubunutu & ROS on virtual Machine, I recommend using 'Virtual Box': https://www.virtualbox.org/wiki/Downloads
+3- ROS course: https://www.udemy.com/course/ros-for-beginners
