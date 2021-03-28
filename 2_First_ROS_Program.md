@@ -18,17 +18,17 @@ In this file you will learn the following:
 ---------------------
 
 2. **create a ROS package**: You need to create a package to run code with ROS. Packagaes allow you to seperate code into reasonable blocks (e.g. camera package, motion planning package,.. etc.)
-    1. `cd catkin_ws/src`
-    2. `catkin_create_pkg first_pkg roscpp rospy std_msgs`
-    * It will create a package with the name 'first_pkg' 
-    * and give it the following dependencies: 
-     * roscpp: C++ ROS library, which allows you to run ROS functionality in your C++ code)
-     * rospy: Python ROS library
-     * std_msgs: 
+1. `cd catkin_ws/src`
+2. `catkin_create_pkg first_pkg roscpp rospy std_msgs`
+* It will create a package with the name 'first_pkg' 
+* and give it the following dependencies: 
+* roscpp: C++ ROS library, which allows you to run ROS functionality in your C++ code)
+* rospy: Python ROS library
+* std_msgs: 
      
-    3. check that in `cd catkin_ws/src/first_pkg` you have 'CMakeLists.txt' and inside it you have the name of the package and its dependencies (`vim CMakeLists.txt`).
-    4. check the 'package.xml' too (`vim package.xml`)
-    5. `cd ~/catkin_ws/` then `catkin_make` 
+3. check that in `cd catkin_ws/src/first_pkg` you have 'CMakeLists.txt' and inside it you have the name of the package and its dependencies (`vim CMakeLists.txt`).
+4. check the 'package.xml' too (`vim package.xml`)
+5. `cd ~/catkin_ws/` then `catkin_make` 
 
 ---------------------
 
