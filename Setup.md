@@ -45,6 +45,6 @@ https://releases.ubuntu.com/16.04/
 
 
 **Useful links:**
-1. ROS Distribuations: http://wiki.ros.org/Distributions
+1. ROS Distributions: http://wiki.ros.org/Distributions
 2. To download Ubunutu & ROS on virtual Machine, I recommend using 'Virtual Box': https://www.virtualbox.org/wiki/Downloads
 3. ROS course: https://www.udemy.com/course/ros-for-beginners
