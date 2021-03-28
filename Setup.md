@@ -19,11 +19,11 @@ https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview
 
 4. In Ubuntu: open "Software Updater" and make an update then restart.
 
-5. update & upgrade packages:
+5. Update & upgrade packages:
     1. update: (write in terminal) `sudo apt-get update`
     2. upgrade: (terminal) `sudo apt-get upgrade`
     
-6. install some useful packages:
+6. Install some useful packages:
     1. `sudo apt install build-essential gcc make perl dkms`
     2. vim editor: `sudo apt install vim`
     3. `sudo apt-get update`
@@ -40,7 +40,7 @@ https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview
     3. if not, add it by going to insert mode first (press i) then write the previous line. Save and exit (Esc : wq)
     
 3. check the installation by typing (in terminal): `printenv | grep ROS`
-        (you should get some information about the ROS path like: ROS_ROOT= /opt/ros/kinetic/share/ros)
+   (you should get some information about the ROS path like: ROS_ROOT= /opt/ros/kinetic/share/ros)
         
 4. check that ROS master can run correctly, by typing: `roscore`
 
