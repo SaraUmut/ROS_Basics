@@ -48,6 +48,23 @@ In this file you will learn the following:
 3. `cd scripts`
 4. `touch first_node.py` create python file
 5. `chmod +x first_node.py` make it executable
-6. edit the file `vim first_node.py`
-7. 
+6. edit the file `vim first_node.py` 
+7. write the following:
+
+```
+!/usr/bin/env python
+
+import rospy
+
+if __name__='__main__':
+        rospy.init_node('first_python_node') # can be different or similar to the name of the file
+
+        rospy.loginfo("This node has been started") # print some info
+
+        rospy.sleep(1) # sleep for 1 second
+
+        rospy.loginfo("Exit now")
+```
+
+9. 
 
