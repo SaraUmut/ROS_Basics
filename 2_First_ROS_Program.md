@@ -25,6 +25,7 @@ In this file you will learn the following:
      * roscpp: C++ ROS library, which allows you to run ROS functionality in your C++ code)
      * rospy: Python ROS library
      * std_msgs: 
+     
     3. check that in `cd catkin_ws/src/first_pkg` you have 'CMakeLists.txt' and inside it you have the name of the package and its dependencies (`vim CMakeLists.txt`).
     4. check the 'package.xml' too (`vim package.xml`)
     5. `cd ~/catkin_ws/` then `catkin_make` 
