@@ -49,15 +49,15 @@ In this file you will learn the following:
 4. `touch first_node.py` create python file
 5. `chmod +x first_node.py` make it executable
 6. edit the file `vim first_node.py` 
-7. write the following:
+7. write the following insode the file then save and exit (Esc : wq):
 
 ```
 !/usr/bin/env python
 
 import rospy
 
-if __name__='__main__':
-        rospy.init_node('first_python_node') # can be different or similar to the name of the file
+if __name__=='__main__':
+        rospy.init_node('first_python_node') # intialize your node and give it a name, it can be different or similar to the name of the file
 
         rospy.loginfo("This node has been started") # print some info
 
@@ -66,5 +66,28 @@ if __name__='__main__':
         rospy.loginfo("Exit now")
 ```
 
-9. 
+9. run the ROS master in a new terminal: `roscore`
+10. run your python node: `python first_node.py`. It works :)
 
+
+12. edit the node (python code) as follows: 
+```
+#!/usr/bin/env python
+import rospy
+if __name__=='__main__':
+        rospy.init_node('first_python_node')
+        rospy.loginfo("This node has been started")
+        rate = rospy.Rate(10) # 10 Hz
+        while not rospy.is_shutdown(): # true if you kill the node: ctrl+c
+                rospy.loginfo("Hello")
+                rate.sleep() # every 0.1 sec
+``` 
+
+12. run it:  `python first_node.py` and stop by pressing: ctrl+c 
+
+* note1: To see the running nodes: `rosnode list`, it will show your node (first_python_node) and rosout, which will be always running when you have roscore running.
+* note2: If you try to run the same node on a new terminal, the running node will be shutdown because you can't have two nodes registerd with same name.
+
+-------------------------
+
+**III-B Create a ROS node - C++**: 
